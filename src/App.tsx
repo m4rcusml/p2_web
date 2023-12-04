@@ -57,7 +57,7 @@ function FluxoNormal() {
 
   return (
     <>
-      <Header middle={pathname === '/search' ? 'search' : 'nexus'} />
+      <Header middle={pathname === '/home/search' ? 'search' : 'nexus'} />
       <Outlet />
       <MenuBar />
     </>

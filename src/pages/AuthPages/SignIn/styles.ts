@@ -26,3 +26,9 @@ export const Form = styled.form`
   width: 500px;
   min-width: 300px;
 `;
+
+export const EsqueciSenha = styled.p`
+  cursor: pointer;
+  text-decoration: underline;
+  color: #122FC4;
+`;

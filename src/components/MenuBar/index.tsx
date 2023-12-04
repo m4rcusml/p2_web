@@ -4,7 +4,7 @@ import { MenuButton } from "./MenuButton";
 export function MenuBar() {
   return (
     <Container>
-      <MenuButton icon="home" to="/" />
+      <MenuButton icon="home" to="/home" />
       <MenuButton icon="search" to="/home/search" />
       <MenuButton icon="school" to="/home/courses" />
       <MenuButton icon="language" to="/home/forum" />
