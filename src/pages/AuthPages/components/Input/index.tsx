@@ -1,5 +1,14 @@
-export function Input() {
+import { Container, TextInput } from "./styles";
+
+type Props = {
+  placeholder: string;
+  type: 'text' | 'email' |'password';
+}
+
+export function Input({placeholder, type}: Props) {
   return (
-    <input type="text" />
+    <Container>
+      <TextInput placeholder={placeholder} type={type} />
+    </Container> 
   )
 }

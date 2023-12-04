@@ -35,12 +35,12 @@ function Root() {
   return (
     <>
       <Routes>
-        <Route path='/auth'>
-          <Route path='signin' element={<SignIn />}/>
+        <Route path='/'>
+          <Route path='' element={<SignIn />}/>
           <Route path='signup' element={<SignUp />}/>
         </Route>
 
-        <Route path='/' element={<FluxoNormal />}>
+        <Route path='/home' element={<FluxoNormal />}>
           <Route path="" element={<Home />} />
           <Route path="search" element={<Search />} />
           <Route path="profile" element={<Profile />} />

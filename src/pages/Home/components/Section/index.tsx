@@ -22,6 +22,8 @@ export function Section({title}: Props) {
         <Course />
         <Course />
         <Course />
+        <Course />
+        <Course />
       </Courses>
     </Container>
   )
