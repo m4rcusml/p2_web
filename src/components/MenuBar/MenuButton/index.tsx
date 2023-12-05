@@ -4,7 +4,7 @@ import { Container, Icon } from './styles';
 
 type Props = {
   icon: 'home' | 'search' | 'school' | 'language' | 'person';
-  to: '/' | '/search' | '/courses' | '/forum' | '/profile';
+  to: '/home' | '/home/search' | '/home/courses' | '/home/forum' | '/home/profile';
 }
 
 export function MenuButton({icon, to}: Props) {

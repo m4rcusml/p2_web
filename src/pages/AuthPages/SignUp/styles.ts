@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
 export const Main = styled.main`
+  background-color: #CBD5E1;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 
   padding: 50px 0;
+
+  height: calc(100vh - 80px);
 `;
 
 export const Text = styled.h1`

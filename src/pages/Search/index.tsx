@@ -15,6 +15,9 @@ export function Search() {
           <Categoria />
           <Categoria />
           <Categoria />
+          <Categoria />
+          <Categoria />
+          <Categoria />
         </Lista>
       </CategoriasContainer>
     </Container>

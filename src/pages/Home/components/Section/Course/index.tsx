@@ -1,11 +1,13 @@
 import { Category, Container, Img, ImgContainer, Name, Progress, ProgressCount } from "./styles";
 
+import Image from '../../../../../assets/image.png';
+
 export function Course() {
   return (
     <Container>
       <ImgContainer>
         <Category>Empatia</Category>
-        <Img src='' />
+        <Img src={Image} />
       </ImgContainer>
       <Name>Comunicação</Name>
       <Progress>

@@ -5,8 +5,6 @@ import { Form, Main, Text } from "./styles";
 
 function handleSubmit(e: any) {
   e.preventDefault();
-  console.log('Clicou em cadastrar');
-  
 }
 
 export function SignUp() {
@@ -17,13 +15,13 @@ export function SignUp() {
         <Text>Crie sua conta</Text>
 
         <Form onSubmit={e => handleSubmit(e)}>
-          <Input />
-          <Input />
-          <Input />
-          <Button />
+          <Input type="text" placeholder="Nome de usuário" />
+          <Input type="email" placeholder="Email" />
+          <Input type="password" placeholder="Senha" />
+          <Button type="submit" text="Criar conta" redirect="/" />
         </Form>
         
-        <Button />
+        <Button type="button" text="Voltar" redirect="/" />
       </Main>
     </>
   )
